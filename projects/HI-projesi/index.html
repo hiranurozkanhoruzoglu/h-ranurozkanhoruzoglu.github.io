@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HİRANUR PROJE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Merriweather:wght@300&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9c23f69017.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="leftcol">
+      <div class="logo">
+        <h1>HI!</h1>
+        <img class="logo-img" src="./images/chat.png" alt="chat">
+      </div>
+      <div class="side-wrapper">
+        <div class="side-title">MENU</div>
+        <div class="side-menu">
+          <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-book-open"></i>Latest News</li>
+            <li><i class="fas fa-map-marker-alt"></i>Explore</li>
+            <li><i class="fas fa-file-alt"></i>Files</li>
+            <li><i class="fas fa-file-image"></i>Galery</li>
+            <li><i class="fas fa-calendar-check"></i>Calender</li>
+          </ul>
+        </div>
+        <div class="side-title">YOUR FAVOURITE</div>
+        <div class="side-menu">
+          <ul>
+            <li><i class="fas fa-tree"></i>Foresto</li>
+            <li><i class="fab fa-earlybirds"></i>Birds</li>
+            <li><i class="fab fa-canadian-maple-leaf"></i>Nature</li>
+            <li><i class="fas fa-paw"></i>Animals</li>
+            <li><i class="fas fa-motorcycle"></i>Motobike</li>
+            <li><i class="fas fa-child"></i>Dance</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <h3><i class="fab fa-twitter"></i>Follow Me On Twitter</h3>
+    </div>
+
+    <div id="menu">
+      <div class="search-bar">
+        <input type="text" placeholder="Search" />
+        <button class="right-side-button" @click="rightSide = !rightSide">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+      <div class="profile-container">
+        <div class="profile">
+          <img src="./images/lavanta_gezikazani.jpeg" alt="naturel" />
+          <div class="profile-name">HİRANUR ÖZKAN HORUZOĞLU</div>
+        </div>
+        <div class="my-photo">
+          <img src="./images/foto.jpeg" alt="hiranur-image" />
+        </div>
+
+        <div class="profile-menu">
+          <ul>
+            <li class="profile-menu-link-active"><a>Timeline</a></li>
+            <li class="profile-menu-link"><a>About</a></li>
+            <li class="profile-menu-link"><a>Friends</a></li>
+            <li class="profile-menu-link"><a>Photos</a></li>
+            <li class="profile-menu-link"><a>More</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-left">
+          <div class="intro-box">
+            <div class="intro-title">
+              Introduction
+              <button class="intro-menu"></button>
+            </div>
+            <div class="info">
+              <div class="info-item">
+                <i class="fas fa-shopping-bag"></i>
+                Product Designer at <a href="#">BT Academy</a>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-home"></i>
+                Live in <a href="#">İstanbul</a>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-basketball-ball"></i>
+                Player name <a href="#">Hiranur Ö. Horuzoğlu</a>
+              </div>
+            </div>
+          </div>
+          <div class="event-box">
+            <div class="event-wrapper">
+              <img src="./images/lavanta-yağı.jpeg" class="flowers-img" />
+              <div class="event-date">
+                <div class="event-month">Jeb</div>
+                <div class="event-day">02</div>
+              </div>
+              <div class="event-title">Winter Flowers</div>
+              <div class="event-subtitle">01st Jeb, 2022 10:00AM</div>
+            </div>
+          </div>
+          <div class="pages box">
+            <div class="intro-title">
+              Your pages
+              <button class="intro-menu"></button>
+            </div>
+            <div class="user">
+              <img src="./images/face-1.jpeg" alt="" class="user-img" />
+              <div class="username">Michael Jackson</div>
+            </div>
+            <div class="user">
+              <img src="./images/face-2.jpeg" alt="" class="user-img" />
+              <div class="username">Johnny Depp</div>
+            </div>
+            <div class="user">
+              <img src="./images/face-3.jpeg" alt="" class="user-img" />
+              <div class="username">Rihanna</div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-right">
+          <div class="status-box">
+            <div class="status-menu">
+              <a class="status-menu-item active" href="#">Status</a>
+              <a class="status-menu-item" href="#">Photos</a>
+              <a class="status-menu-item" href="#">Videos</a>
+            </div>
+            <div class="status-main">
+              <img src="./images/foto.jpeg" class="status-img" />
+              <textarea class="status-textarea" placeholder="Write something to Hiranur.."></textarea>
+            </div>
+            <div class="status-actions">
+              <a href="#" class="status-action"><i class="fas fa-user"></i>People</a>
+              <a href="#" class="status-action"><i class="fas fa-map-pin"></i>Check in</a>
+              <a href="#" class="status-action"><i class="fas fa-laugh"></i>Mood</a>
+              <button class="status-share">Share</button>
+            </div>
+          </div>
+          <div class="album box">
+            <div class="status-main">
+              <img src="./images/foto.jpeg" class="status-img" />
+              <div class="album-detail">
+                <div class="album-title">
+                  <strong>Hiranur Ö. Horuzoğlu</strong>
+                  create new <span>album</span>
+                </div>
+                <div class="album-date">6 hours ago</div>
+              </div>
+              <button class="intro-menu"></button>
+            </div>
+            <div class="album-content">
+              when the bass drops,so do my problems.
+              <div class="album-photos">
+                <img src="./images/lavanta1.jpeg" alt class="album-photo" />
+                <div class="album-right">
+                  <img src="./images/lavanta2.jpeg" alt class="album-photo" />
+                  <img src="./images/lavanta3.jpeg" alt class="album-photo" />
+                </div>
+              </div>
+            </div>
+            <div class="album-actions">
+              <a href="#" class="album-action">
+                <i class="far fa-heart"></i>87
+              </a>
+              <a href="#" class="album-action">
+                <i class="far fa-comment"></i>20
+              </a>
+              <a href="#" class="album-action">
+                <i class="fas fa-retweet"></i>45
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-side" :class="{'active': rightSide } ">
+      <div class="account">
+        <button class="account-button">
+          <i class="fas fa-envelope"></i>
+        </button>
+        <button class="account-button2">
+          <i class="far fa-bell"></i>
+        </button>
+        <span class="account-user">
+          Hiranur Ö. H.
+
+          <img src="./images/foto.jpeg" alt class="account-profile">
+          <span>▼</span>
+        </span>
+      </div>
+      <div class="side-wrapper stories">
+        <div class="side-title">STORIES</div>
+        <div class="user">
+          <img src="./images/007870.jpg-c_162_216_x-f_jpg-q_x-xxyxx.jpg" alt class="user-img">
+          <div class="username">Wentworth Miller
+            <div class="album-date">10 hours ago</div>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./images/images.jpeg" alt class="user-img">
+          <div class="username">Peter Stormare
+            <div class="album-date">12 hours ago</div>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./images/EYKU4PFWsAEHUiS.jpeg" alt class="user-img">
+          <div class="username">Jodi Lyn O'Keefe
+            <div class="album-date">7 hours ago</div>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./images/89a4e546a00c53dcf69864306f11c441.jpeg" alt class="user-img">
+          <div class="username">Sarah Wayne Callies
+            <div class="album-date">1 hours ago</div>
+          </div>
+        </div>
+      </div>
+      <div class="side-wrappers contacts">
+        <div class="side-title2">CONTACTS</div>
+        <div class="user">
+          <img src="./images/thumb_971664_person_default.jpeg" class="user-img">
+          <div class="username">
+            Rokmond Dunbar
+            <div class="user-status idle"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./images/t-bag-prison-break-819346.jpeg" class="user-img">
+          <div class="username">
+            Robert Knepper
+            <div class="user-status"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./images/images (1).jpeg" class="user-img">
+          <div class="username">
+            Amaury Nolasco
+            <div class="user-status idle"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./images/Lincoln_Burrows_(fictional_character).jpeg" class="user-img">
+          <div class="username">
+            Dominic Purcell
+            <div class="user-status"></div>
+          </div>
+        </div>
+        <div class="user">
+          <img src="./images/images (2).jpeg" class="user-img">
+          <div class="username">
+            Wade Williams
+            <div class="user-status idle"></div>
+          </div>
+        </div>
+      </div>
+      <div class="search-bar right-search">
+        <input type="text" placeholder="Search" />
+        <div class="search-bar-svgs">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-cog"></i>
+          <i class="fas fa-pencil-alt"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
