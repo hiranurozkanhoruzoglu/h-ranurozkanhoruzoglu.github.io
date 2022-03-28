@@ -152,6 +152,14 @@ h2{
     width: auto;
     height: auto;
 }
+
+#projects #projects-header h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#projects #projects-header p{
+    margin-bottom: 40px;
+}
 #projects p{
     font-size: 20px;
     font-family: 'Roboto Mono', monospace;
@@ -197,6 +205,44 @@ h2{
     justify-content: center;
     font-size: 1rem;
     color: #616a78;
+}
+
+/* sertifika */
+
+#certificate{
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;    
+}
+#certificate #certificat-header{
+    margin: 50px;
+    color: #545b67;
+}
+
+#card-certificate{
+    width: 33.3%;
+    height: auto;
+}
+#card-certificate #certificate-img img{
+    width: 400px;
+    height: 250px;
+}
+#card-certificate #certifiate-text{
+    font-size: 1.3rem; 
+    margin: 15px;
+    color: #99a6b9;
+}
+#card-certificate #certifiate-text h4{
+    text-align: center;
+}
+#card-certificate #certifiate-text p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    color: #616a78;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
 }
 
 /* skills */
