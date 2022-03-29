@@ -10,63 +10,6 @@ body {
     font-family: 'Smooch Sans', sans-serif;
     */
 }
-
-/* #navbar {
-    align-items: center;
-    background: #2d394b;
-    display: flex;
-    height: 60px;
-    left: 0;
-    padding: 10px 70px 10px 30px;
-    position: sticky;
-    right: 0;
-    top: 0;
-}
-
-#name {
-    align-items: baseline;
-    color: #FFA45C;
-    display: inline-block;
-    font-size: 14px;
-    line-height: 28px;
-    margin-right: 20px;
-    max-width: 45%;
-    min-width: 16px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-
-}
-
-.devices {
-    display: flex;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%);
-}
-
-button {
-    border: 0;
-    box-sizing: border-box;
-    outline: none;
-    padding: 0;
-}
-
-.device-btn {
-    background-color: initial;
-    cursor: pointer;
-    margin: 0 6px;
-
-}
-
-.device-btn img {
-    fill: #8a94a4;
-    height: 32px;
-    width: 32px;
-}
- */
-
-
 /* content */
 
 h2{
@@ -220,8 +163,10 @@ h2{
 }
 
 #card-certificate{
-    width: 33.3%;
+    width: auto;
     height: auto;
+    text-align: center;
+    margin-bottom: 20px;
 }
 #card-certificate #certificate-img img{
     width: 400px;
@@ -238,7 +183,7 @@ h2{
 #card-certificate #certifiate-text p{
     display: flex;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     font-size: 1rem;
     color: #616a78;
     font-family: 'Roboto Mono', monospace;
