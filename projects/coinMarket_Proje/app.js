@@ -29,14 +29,14 @@ class Request {
 Request.get("coin.json").then(response => callback(response));
 
 
-const interval = setInterval(function () {
-    Request.get("coin.json").then(response => callback(response));
-}, 5000);
+// const interval = setInterval(function () {
+//     Request.get("coin.json").then(response => callback(response));
+// }, 5000);
 
 
 
 function callback(e) {
-    console.log(e);
+    
     if (e !== null) {
         while (list.firstElementChild !== null) {
             list.firstElementChild.remove();
