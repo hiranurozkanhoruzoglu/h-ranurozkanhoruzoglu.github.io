@@ -12,6 +12,8 @@
             width: 1124px;
             margin: 0 auto;
         }
+
+
         .leftCol {
             background-color: #aaa7a79c;
             width: 320px;
@@ -30,9 +32,17 @@
             border-radius: 50%;
             text-align: center;
         }
+
         .box h2 {
             border-bottom: 2px solid black;
         }
+
+        #information a {
+            text-decoration: none;
+            color: black;
+        }
+
+
         .rightCol {
             width: 700px;
             height: 100%;
@@ -51,16 +61,20 @@
         .nameBox h1 {
             padding-top: 60px;
         }
+
         .cizgi {
             width: 60px;
             border-color: white;
         }
-        #projects a{
+
+        #projects a {
             text-decoration: none;
             color: rgb(80, 12, 12);
         }
-        #projects a:hover{
+
+        #projects a:hover {
             color: rgb(160, 12, 12);
+            font-size: 20px;
         }
     </style>
 </head>
@@ -68,11 +82,10 @@
 <body>
     <div class="container">
         <div class="leftCol">
-
             <div class="image">
                 <img src="my-photo.png" />
             </div>
-            <div class="box">
+            <div id="information" class="box">
                 <div class="title">
                     <h2>İLETİŞİM</h2>
                 </div>
@@ -82,7 +95,8 @@
                     </div>
                     <br>
                     <div>
-                        <i class="fas fa-envelope"></i> hiranurozkanhoruzoglu@gmail.com
+                        <i class="fas fa-envelope"></i><a href="mailto:hiranurozkanhoruzoglu@gmail.com" target="_blank">
+                            hiranurozkanhoruzoglu@gmail.com</a>
                     </div>
                     <br>
                     <div>
@@ -90,7 +104,8 @@
                     </div>
                     <br>
                     <div>
-                        <i class="fas fa-desktop"></i> https://hiranurozkanhoruzoglu.github.io/
+                        <i class="fas fa-desktop"></i> <a href="https://hiranurozkanhoruzoglu.github.io/"
+                            target="_blank"> https://hiranurozkanhoruzoglu.github.io/</a>
                     </div>
 
                 </div>
@@ -112,7 +127,7 @@
                         <br>
                         2013-2017
                     </P>
-                    
+
                 </div>
             </div>
             <div class="box">
@@ -164,16 +179,38 @@
                 </div>
                 <div id="projects" class="contain">
                     <h3>Frelancing Website</h3>
-                    <a href="/frelancing-website-react/">Frelancing Projesine Buradan Ulasabilirsiniz.</a>
+                    <a href="https://hiranurozkanhoruzoglu.github.io/freelancing-website-react/"
+                        target="_blank">Frelancing Projesine Buradan Ulasabilirsiniz.</a>
                     <p>
                         React ile yaptığım bu projede her bir bölümü companentlere bölerek çağırıldığı yerde
                         kullanılmısını sağlayarak bir Frelancing Website Projesi yaptım.</p>
-                        <ul>
-                            <li>React</li>
-                            <li>Css</li>
-                        </ul>
+                    <ul>
+                        <li>React</li>
+                        <li>Css</li>
+                    </ul>
                 </div>
             </div>
+            <br>
+            <div class="box">
+                <div class="title">
+                    <h2>SERTIFIKALAR</h2>
+                </div>
+                <div class="contain">
+                    <ul>
+                        <li><h4>BT Adademi</h4></li>
+                        <p>
+                            BT Akademi'de 4 aylik bir egitimle HTML,CSS,BOOTSTRAP,JAVASCRIPT ve REACT
+                            öğrendim.
+                        </p>
+                        <li><h4>Siliconmade Akademi Sertifikasi</h4></li>
+                        <p>
+                            Siliconmade Akademi'de 2 aylik bir eğitimle HTML,CSS,C# ve TERMINAL
+                            kullanımını öğrendim.
+                        </p>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
