@@ -88,6 +88,15 @@ h2{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+#about-me p a{
+    text-decoration: none;
+    color: #0958ac;
+    
+}
+#about-me p a:hover{
+    color: #348ceb;
+    font-size: 20px;
+}
 
 /* projects */
 #projects {
